@@ -1,6 +1,5 @@
-import { Container, List, ListItem } from './Statistics.styled';
-
 import PropTypes from 'prop-types';
+import { Container, List, ListItem } from './Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
   return (
@@ -19,6 +18,7 @@ export const Statistics = ({ title, stats }) => {
 };
 
 Statistics.propTypes = {
+  title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,

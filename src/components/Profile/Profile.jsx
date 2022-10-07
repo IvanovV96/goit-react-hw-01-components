@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+
 import {
   Container,
   UserPhoto,
@@ -27,16 +28,16 @@ export const Profile = ({
       </UserInfo>
       <List>
         <ListItem>
-          <span className="label">Followers</span>
-          <span className="quantity"> {followers}</span>
+          <span>Followers</span>
+          <span> {followers}</span>
         </ListItem>
         <ListItem>
-          <span className="label">Views</span>
-          <span className="quantity"> {views}</span>
+          <span>Views</span>
+          <span> {views}</span>
         </ListItem>
         <ListItem>
-          <span className="label">Likes</span>
-          <span className="quantity"> {likes}</span>
+          <span>Likes</span>
+          <span> {likes}</span>
         </ListItem>
       </List>
     </Container>
